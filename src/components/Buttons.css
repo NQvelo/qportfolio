@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "mainfont";
+  src: url("../fonts/main.ttf") format("truetype");
+}
+
+.rounded-button {
+  border-radius: 50px;
+  padding: 13px 30px 13px 30px;
+  font-family: "mainfont";
+  cursor: pointer;
+  border: 1px solid;
+}

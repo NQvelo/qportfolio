@@ -1,0 +1,33 @@
+.fastyle {
+  color: white;
+  font-size: 40px;
+}
+
+.cc {
+  border-radius: 15px;
+  display: grid;
+  justify-content: space-between;
+  background-color: #191919;
+  width: 400px;
+  height: 240px;
+  padding: 30px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .fastyle {
+    color: white;
+    font-size: 30px;
+  }
+
+  .cc {
+    border-radius: 15px;
+    display: grid;
+    justify-content: space-between;
+    background-color: #191919;
+    width: 600px;
+    height: 200px;
+    padding: 30px;
+    align-items: center;
+  }
+}
