@@ -46,10 +46,11 @@ function Main() {
         </div>
 
         <div className="coverText">
-          <h1> One app for your calls and conferences</h1>
+          <h1> Crafting Dreams into Visual Reality</h1>
           <p>
-            Visario is a platform where you can conduct high-quality and secure
-            video meetings and calls
+            Dive into my portfolio, where artistic passions come alive. Explore
+            a fusion of creativity, skill, and imagination, woven into a
+            tapestry of visual stories and innovative designs. Welcome!
           </p>
           <div className="buttonclass">
             <ButtonComp
@@ -67,7 +68,10 @@ function Main() {
           </div>
         </div>
       </div>
+
       <div className="secondscreen">
+        <h1>services</h1>
+        <p>servicesservicesservicesservicesservicesservicesservices</p>
         <div className="grid-container">
           <Cards icon={faHome} />
           <Cards icon={faHeart} />
