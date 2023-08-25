@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/qportfolio/static/css/main.91800fa9.css",
+    "main.css": "/qportfolio/static/css/main.2ec41b3b.css",
     "main.js": "/qportfolio/static/js/main.d522723e.js",
     "static/js/872.a7fc980c.chunk.js": "/qportfolio/static/js/872.a7fc980c.chunk.js",
     "static/js/227.e7033041.chunk.js": "/qportfolio/static/js/227.e7033041.chunk.js",
@@ -11,7 +11,7 @@
     "static/media/main.ttf": "/qportfolio/static/media/main.fd7b44497f4ba14249a3.ttf",
     "static/media/qveloLogo.png": "/qportfolio/static/media/qveloLogo.eefd959179582c406036.png",
     "index.html": "/qportfolio/index.html",
-    "main.91800fa9.css.map": "/qportfolio/static/css/main.91800fa9.css.map",
+    "main.2ec41b3b.css.map": "/qportfolio/static/css/main.2ec41b3b.css.map",
     "main.d522723e.js.map": "/qportfolio/static/js/main.d522723e.js.map",
     "872.a7fc980c.chunk.js.map": "/qportfolio/static/js/872.a7fc980c.chunk.js.map",
     "227.e7033041.chunk.js.map": "/qportfolio/static/js/227.e7033041.chunk.js.map",
@@ -21,7 +21,7 @@
     "787.1514052f.chunk.js.map": "/qportfolio/static/js/787.1514052f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91800fa9.css",
+    "static/css/main.2ec41b3b.css",
     "static/js/main.d522723e.js"
   ]
 }
