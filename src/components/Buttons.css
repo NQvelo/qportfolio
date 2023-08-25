@@ -14,7 +14,7 @@
 @media (max-width: 900px) {
   .rounded-button {
     border-radius: 50px;
-    padding: 10px 10px 10px 10px;
+    padding: 13px 20px 13px 20px;
     font-family: "mainfont";
     cursor: pointer;
     border: 1px solid;
