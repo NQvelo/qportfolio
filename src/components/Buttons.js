@@ -15,11 +15,7 @@ function ButtonComp({
   };
 
   return (
-    <button
-      className="rounded-button"
-      onClick={onClick}
-      style={{ buttonStyle }}
-    >
+    <button className="rounded-button" onClick={onClick} style={buttonStyle}>
       {label}
     </button>
   );
