@@ -87,18 +87,18 @@
 
   .coverText h1 {
     font-size: 35px;
-    background-color: green;
+    /* background-color: green; */
     font-family: "mainfont";
   }
 
   .coverText p {
     font-size: 15px;
-    background-color: green;
+    /* background-color: green; */
   }
 
   .coverText {
-    background-color: orange;
-    padding: 20px;
+    /* background-color: orange; */
+    padding: 10px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
