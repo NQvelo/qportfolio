@@ -21,9 +21,16 @@ import {
   faArrowsDownToPeople,
 } from "@fortawesome/free-solid-svg-icons";
 
+import { Helmet } from "react-helmet";
+
 function Main() {
   return (
     <div className="main">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>qportfolio</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <div className="coverDiv">
         <Header />
         <div className="splineDiv">
