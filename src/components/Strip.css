@@ -1,7 +1,7 @@
 .Containerdiv {
   padding: 20px;
   flex: 0 0 auto;
-  width: 300px;
+
   width: 400px;
   height: 350px;
   color: white;
@@ -14,4 +14,17 @@
   height: 200px;
   object-fit: cover;
   border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+  .Containerdiv {
+    padding: 20px;
+    flex: 0 0 auto;
+    width: 350px;
+    height: 330px;
+    color: white;
+    border-radius: 25px;
+    background-color: #191919;
+    display: inline-block;
+  }
 }
