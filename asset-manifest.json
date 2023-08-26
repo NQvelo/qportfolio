@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/qportfolio/static/css/main.de30dafb.css",
-    "main.js": "/qportfolio/static/js/main.a7fee5dc.js",
+    "main.css": "/qportfolio/static/css/main.94a213ff.css",
+    "main.js": "/qportfolio/static/js/main.cb24475f.js",
     "static/js/872.a7fc980c.chunk.js": "/qportfolio/static/js/872.a7fc980c.chunk.js",
     "static/js/227.e7033041.chunk.js": "/qportfolio/static/js/227.e7033041.chunk.js",
     "static/js/526.0404d30a.chunk.js": "/qportfolio/static/js/526.0404d30a.chunk.js",
@@ -12,8 +12,8 @@
     "static/media/www.jpg": "/qportfolio/static/media/www.24cb09fb85a9582f78cc.jpg",
     "static/media/qveloLogo.png": "/qportfolio/static/media/qveloLogo.eefd959179582c406036.png",
     "index.html": "/qportfolio/index.html",
-    "main.de30dafb.css.map": "/qportfolio/static/css/main.de30dafb.css.map",
-    "main.a7fee5dc.js.map": "/qportfolio/static/js/main.a7fee5dc.js.map",
+    "main.94a213ff.css.map": "/qportfolio/static/css/main.94a213ff.css.map",
+    "main.cb24475f.js.map": "/qportfolio/static/js/main.cb24475f.js.map",
     "872.a7fc980c.chunk.js.map": "/qportfolio/static/js/872.a7fc980c.chunk.js.map",
     "227.e7033041.chunk.js.map": "/qportfolio/static/js/227.e7033041.chunk.js.map",
     "526.0404d30a.chunk.js.map": "/qportfolio/static/js/526.0404d30a.chunk.js.map",
@@ -22,7 +22,7 @@
     "787.1514052f.chunk.js.map": "/qportfolio/static/js/787.1514052f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de30dafb.css",
-    "static/js/main.a7fee5dc.js"
+    "static/css/main.94a213ff.css",
+    "static/js/main.cb24475f.js"
   ]
 }
