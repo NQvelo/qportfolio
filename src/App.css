@@ -80,9 +80,38 @@
   gap: 20px;
 }
 .containers {
-  margin-top: 50px;
+  margin-top: 200px;
+  overflow-x: auto;
   padding: 30px;
+  display: flex;
+
+  gap: 20px;
 }
+
+.containers::-webkit-scrollbar {
+  width: 0; /* Hide the scrollbar for Chrome, Safari, and Edge */
+  display: none; /* Hide the scrollbar for Firefox */
+}
+.button-container {
+  margin-top: 30px;
+  position: absolute;
+  /* top: 10px; */
+  right: 10px;
+}
+
+.custom-button {
+  width: 60px;
+  height: 60px;
+  margin-top: 100px;
+  background-color: #0ca1d311;
+  backdrop-filter: blur(30px);
+  color: white;
+  border-radius: 50px;
+  border: 1px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
 @media (max-width: 900px) {
   .secondscreen {
     padding: 50px;
@@ -92,9 +121,9 @@
   }
 
   .grid-container {
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 10px; */
+    gap: 10px;
   }
 
   .coverText h1 {
@@ -145,5 +174,12 @@
   }
   .splineDiv {
     height: 370px;
+  }
+  .containers {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    max-width: 100%;
+    padding: 16px;
   }
 }

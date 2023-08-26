@@ -1,9 +1,13 @@
 .Containerdiv {
   padding: 20px;
-  background-color: #191919;
-  border-radius: 25px;
-  height: 400px;
+  flex: 0 0 auto;
+  width: 300px;
+  width: 400px;
+  height: 350px;
   color: white;
+  border-radius: 25px;
+  background-color: #191919;
+  display: inline-block;
 }
 .contImg {
   width: 100%;

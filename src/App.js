@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Cards from "./components/Cards";
 
 import ButtonComp from "./components/Buttons";
@@ -13,19 +13,24 @@ import Spline from "@splinetool/react-spline";
 
 import {
   faHome,
-  faSearch,
   faHeart,
-  faUser,
   faPager,
-  faAnchorLock,
-  faArrowsDownToPeople,
+  faCircleRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { Helmet } from "react-helmet";
-import { Container } from "react-bootstrap";
 import Strip from "./components/Strip";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Main() {
+  const scrollingContainerRef = useRef(null);
+
+  const scrollRight = () => {
+    if (scrollingContainerRef.current) {
+      scrollingContainerRef.current.scrollLeft += 100; // Adjust the scrolling distance as needed
+    }
+  };
+
   return (
     <div className="main">
       <Helmet>
@@ -71,6 +76,16 @@ function Main() {
         </div>
       </div>
       <div className="containers">
+        <div className="button-container">
+          <button className="custom-button" onClick={scrollRight}>
+            <FontAwesomeIcon icon={faCircleRight} />
+          </button>
+        </div>
+        <Strip />
+        <Strip />
+        <Strip />
+        <Strip />
+        <Strip />
         <Strip />
       </div>
       <div className="secondscreen">
