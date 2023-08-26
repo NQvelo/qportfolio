@@ -15,7 +15,7 @@ import {
   faHome,
   faHeart,
   faPager,
-  faCircleRight,
+  faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { Helmet } from "react-helmet";
@@ -23,11 +23,11 @@ import Strip from "./components/Strip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Main() {
-  const scrollingContainerRef = useRef(null);
+  const containerRef = useRef(null);
 
   const scrollRight = () => {
-    if (scrollingContainerRef.current) {
-      scrollingContainerRef.current.scrollLeft += 100; // Adjust the scrolling distance as needed
+    if (containerRef.current) {
+      containerRef.current.scrollBy({ left: 300, behavior: "smooth" });
     }
   };
 
@@ -75,10 +75,10 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="containers">
+      <div className="containers" ref={containerRef}>
         <div className="button-container">
           <button className="custom-button" onClick={scrollRight}>
-            <FontAwesomeIcon icon={faCircleRight} />
+            <FontAwesomeIcon icon={faChevronRight} />
           </button>
         </div>
         <Strip />

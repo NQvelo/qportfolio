@@ -11,9 +11,10 @@
 
 .header.scrolling {
   /* background-color: white; */
-  background-color: #191919c8;
-  backdrop-filter: blur(20px);
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  background-color: #0ca1d311;
+  backdrop-filter: blur(30px);
+  /* box-shadow: 0 5px 200px rgba(255, 255, 255, 0.246); */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.138);
   color: white;
 }
 

@@ -43,7 +43,7 @@ const Header = () => {
           <div className="logo">
             <img src={logo} alt="ss" className="logoImage" />
           </div>
-
+          <div></div>
           <li>
             <Link
               to="section1"
@@ -53,23 +53,18 @@ const Header = () => {
             ></Link>
           </li>
           <li>
-            <Link
-              to="section1"
-              smooth={true}
-              duration={500}
-              onClick={toggleMenu}
-            >
-              Section 1
+            <Link to="Home" smooth={true} duration={500} onClick={toggleMenu}>
+              Home
             </Link>
           </li>
           <li>
-            <Link
-              to="section2"
-              smooth={true}
-              duration={500}
-              onClick={toggleMenu}
-            >
-              Section 2
+            <Link to="#" smooth={true} duration={500} onClick={toggleMenu}>
+              Work
+            </Link>
+          </li>
+          <li>
+            <Link to="Home" smooth={true} duration={500} onClick={toggleMenu}>
+              About
             </Link>
           </li>
           {/* Add more navigation items */}
