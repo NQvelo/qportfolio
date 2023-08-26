@@ -76,24 +76,25 @@
 .grid-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, auto); /* Create 3 columns */
-  gap: 20px; /* Add spacing between the cards */
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
 }
-
+.containers {
+  margin-top: 50px;
+  padding: 30px;
+}
 @media (max-width: 900px) {
   .secondscreen {
     padding: 50px;
-    display: inline-block;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
     align-items: center;
     overflow: auto;
   }
 
   .grid-container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 10px;
+    gap: 10px; */
   }
 
   .coverText h1 {

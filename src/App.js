@@ -22,6 +22,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import { Helmet } from "react-helmet";
+import { Container } from "react-bootstrap";
+import Strip from "./components/Strip";
 
 function Main() {
   return (
@@ -68,7 +70,9 @@ function Main() {
           </div>
         </div>
       </div>
-
+      <div className="containers">
+        <Strip />
+      </div>
       <div className="secondscreen">
         <h1>services</h1>
         <p>servicesservicesservicesservicesservicesservicesservices</p>

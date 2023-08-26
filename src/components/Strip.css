@@ -1,0 +1,13 @@
+.Containerdiv {
+  padding: 20px;
+  background-color: #191919;
+  border-radius: 25px;
+  height: 400px;
+  color: white;
+}
+.contImg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
