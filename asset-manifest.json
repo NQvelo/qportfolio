@@ -1,28 +1,23 @@
 {
   "files": {
-    "main.css": "/qportfolio/static/css/main.1454c3bf.css",
-    "main.js": "/qportfolio/static/js/main.6d9b3c26.js",
-    "static/js/872.a7fc980c.chunk.js": "/qportfolio/static/js/872.a7fc980c.chunk.js",
-    "static/js/227.e7033041.chunk.js": "/qportfolio/static/js/227.e7033041.chunk.js",
-    "static/js/526.0404d30a.chunk.js": "/qportfolio/static/js/526.0404d30a.chunk.js",
-    "static/js/232.2a080ae1.chunk.js": "/qportfolio/static/js/232.2a080ae1.chunk.js",
-    "static/js/237.2eda95e5.chunk.js": "/qportfolio/static/js/237.2eda95e5.chunk.js",
+    "main.css": "/qportfolio/static/css/main.fb662312.css",
+    "main.js": "/qportfolio/static/js/main.76672d28.js",
     "static/js/787.1514052f.chunk.js": "/qportfolio/static/js/787.1514052f.chunk.js",
-    "static/media/main.ttf": "/qportfolio/static/media/main.fd7b44497f4ba14249a3.ttf",
-    "static/media/www.jpg": "/qportfolio/static/media/www.24cb09fb85a9582f78cc.jpg",
-    "static/media/qveloLogo.png": "/qportfolio/static/media/qveloLogo.eefd959179582c406036.png",
+    "static/media/bg.png": "/qportfolio/static/media/bg.844a679a3bc00cb2f773.png",
+    "static/media/alikuri.png": "/qportfolio/static/media/alikuri.aeef09f60abab04be59f.png",
+    "static/media/markGeo.ttf": "/qportfolio/static/media/markGeo.bb983d532f5e9d683e8c.ttf",
+    "static/media/Med.ttf": "/qportfolio/static/media/Med.f2ff5a1a640338789e34.ttf",
+    "static/media/sm.png": "/qportfolio/static/media/sm.23b080c436d4f3c522af.png",
+    "static/media/Image.png": "/qportfolio/static/media/Image.e6273fe02ae8b6c5bf99.png",
+    "static/media/ba-tr3.png": "/qportfolio/static/media/ba-tr3.b39e7321e172c5846485.png",
+    "static/media/mss.svg": "/qportfolio/static/media/mss.e46ba3487897c3740e9cae68c1fc21c8.svg",
     "index.html": "/qportfolio/index.html",
-    "main.1454c3bf.css.map": "/qportfolio/static/css/main.1454c3bf.css.map",
-    "main.6d9b3c26.js.map": "/qportfolio/static/js/main.6d9b3c26.js.map",
-    "872.a7fc980c.chunk.js.map": "/qportfolio/static/js/872.a7fc980c.chunk.js.map",
-    "227.e7033041.chunk.js.map": "/qportfolio/static/js/227.e7033041.chunk.js.map",
-    "526.0404d30a.chunk.js.map": "/qportfolio/static/js/526.0404d30a.chunk.js.map",
-    "232.2a080ae1.chunk.js.map": "/qportfolio/static/js/232.2a080ae1.chunk.js.map",
-    "237.2eda95e5.chunk.js.map": "/qportfolio/static/js/237.2eda95e5.chunk.js.map",
+    "main.fb662312.css.map": "/qportfolio/static/css/main.fb662312.css.map",
+    "main.76672d28.js.map": "/qportfolio/static/js/main.76672d28.js.map",
     "787.1514052f.chunk.js.map": "/qportfolio/static/js/787.1514052f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1454c3bf.css",
-    "static/js/main.6d9b3c26.js"
+    "static/css/main.fb662312.css",
+    "static/js/main.76672d28.js"
   ]
 }
